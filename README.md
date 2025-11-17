@@ -1,11 +1,45 @@
 # 비트코인 가격 예측 및 트레이딩 전략 프로젝트 📈💰
 
-[![Open Lab Notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/juho127/TimeSeriesForecastingTest/blob/main/lab_notebook.ipynb)
-[![Open Assignment in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/juho127/TimeSeriesForecastingTest/blob/main/assignment_notebook.ipynb)
-
 머신러닝을 활용하여 비트코인의 가격 변화 방향을 예측하고, **수익률을 극대화하는 트레이딩 전략**을 개발하는 실습 프로젝트입니다.
 
-> **Note**: Colab에서 바로 실행하려면 위의 뱃지를 클릭하세요! (GitHub에 업로드 후 YOUR_USERNAME을 본인 계정명으로 변경)
+## 🚀 시작하기 (중요!)
+
+### Google Colab에서 실행하기
+
+**학생 여러분, 다음 단계를 따라 본인의 환경을 설정하세요:**
+
+#### 1️⃣ 이 저장소를 본인 계정으로 Fork 하기
+- 이 GitHub 페이지 우측 상단의 **"Fork"** 버튼을 클릭
+- 본인의 GitHub 계정으로 저장소가 복사됩니다
+
+#### 2️⃣ Colab에서 노트북 열기 (두 가지 방법)
+
+**방법 A: 아래 링크에서 본인의 GitHub 아이디로 수정하기**
+
+아래 링크를 복사한 후 `YOUR_USERNAME`을 본인의 GitHub 아이디로 변경하세요:
+
+```
+실습용 노트북:
+https://colab.research.google.com/github/YOUR_USERNAME/TimeSeriesForecastingTest/blob/main/lab_notebook.ipynb
+
+과제용 노트북:
+https://colab.research.google.com/github/YOUR_USERNAME/TimeSeriesForecastingTest/blob/main/assignment_notebook.ipynb
+```
+
+**방법 B: Colab에서 직접 열기 (더 쉬움!)**
+
+1. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/) ← 클릭
+2. Colab에서: **파일** → **GitHub에서 노트북 열기**
+3. 본인의 GitHub 아이디로 검색
+4. `TimeSeriesForecastingTest` 저장소 선택
+5. 원하는 노트북(`lab_notebook.ipynb` 또는 `assignment_notebook.ipynb`) 선택
+
+#### 3️⃣ 코드 수정 및 저장
+- Colab에서 코드를 수정한 후
+- **파일** → **GitHub에 사본 저장**을 선택하여 본인 저장소에 저장하세요
+- 또는 **파일** → **드라이브에 사본 저장**으로 Google Drive에 저장 가능
+
+> 💡 **Tip**: Fork한 본인의 저장소에서 작업하면 과제 제출 시 GitHub 링크만 공유하면 됩니다!
 
 ## 📚 프로젝트 개요
 
