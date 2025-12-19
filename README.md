@@ -1,4 +1,5 @@
-1. 모델 설계 및 훈련 (Model Design & Training)
+**1. 모델 설계 및 훈련 (Model Design & Training)**
+
 1.1. 모델 아키텍처: GRU (Gated Recurrent Unit) 금융 시계열 데이터의 비선형성과 노이즈를 효과적으로 학습하기 위해 RNN 계열인 GRU 모델을 채택했습니다.
 
 구조적 특징: LSTM(Long Short-Term Memory) 대비 게이트 구조가 단순하여 파라미터 수가 적습니다. 이는 데이터가 제한적인 금융 환경에서 연산 효율성을 높이고, 과적합(Overfitting) 위험을 줄이는 데 유리합니다.
@@ -9,7 +10,7 @@ Layer 구성: 단순한 1-Layer 구조 대신 2-Layer를 적용하여 시장의 
 
 1.2. 훈련 과정 과거 가격 데이터의 시퀀스(Sequence)를 입력받아 **'다음 날 가격이 상승할 확률'**을 0과 1 사이의 값으로 예측하도록 학습했습니다. 손실 함수로는 이진 분류에 적합한 BCELoss를 사용했으며, 최적화 알고리즘은 Adam을 사용하여 수렴 속도를 높였습니다.
 
-2. 투자 전략 설계 및 적용 (Investment Strategy)
+**2. 투자 전략 설계 및 적용 (Investment Strategy)**
 2.1. 전략 개요: [Trend Following with Cut-Loss] 단순히 AI의 예측 확률에만 의존하는 것이 아니라, 기술적 분석과 자금 관리 원칙을 결합한 하이브리드(Hybrid) 전략을 수립했습니다.
 
 2.2. 진입(Entry) 로직
@@ -24,7 +25,7 @@ Layer 구성: 단순한 1-Layer 구조 대신 2-Layer를 적용하여 시장의 
 
 익절 (Take Profit - No Limit): 상한선을 두지 않고 추세가 꺾일 때까지 포지션을 유지합니다. 이는 "손실은 짧게, 이익은 길게(Cut losses short, Let profits run)" 가져가는 퀀트 투자의 정석을 반영한 것입니다.
 
-3. 벤치마크 비교 및 분석 (Analysis)
+**`**3. 벤치마크 비교 및 분석 (Analysis)**`**
 3.1. 성과 비교
 
 벤치마크 (Buy and Hold): 시장의 등락을 그대로 반영하여, 특정 하락 구간(2024년 3~5월)에서 큰 자산 손실(MDD)을 겪으며 최종적으로 저조한 수익률을 기록했습니다.
